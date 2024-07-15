@@ -3,7 +3,7 @@ import torch
 from torch.utils.data import Dataset, Subset
 from datasets import load_dataset, load_from_disk
 
-from LabelTrain.dataset.dataset_skeleton import register_dataset, DataType, LabelType
+from LabelBench.dataset.dataset_skeleton import register_dataset, DataType, LabelType
 
 
 def pad_to_len(tokens, tokenizer, length):
