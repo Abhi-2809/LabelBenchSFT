@@ -4,7 +4,7 @@ from transformers import (
 )
 import torch
 import torch.nn as nn
-from LabelTrain.model.model_skeleton import register_model
+from LabelBench.model.model_skeleton import register_model
 
 
 class T5EncoderForSequenceClassification(nn.Module):
